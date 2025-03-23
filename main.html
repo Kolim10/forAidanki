@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для Айданы ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Привет, моя жаным! 💖</h1>
+        <p id="message">Ты самая лучшая!</p>
+        <button onclick="newMessage()">Новое сообщение</button>
+        <button onclick="hug()">Получить объятие 🤗</button>
+        <button onclick="showSecret()">Сюрприз 🎁</button>
+        
+        <div id="hug-animation">🤗🤗🤗</div>
+        <p id="countdown"></p> 
+        <p id="next-meet-timer"></p> 
+        
+        <audio id="audio" src="hug-voice.mp3"></audio>
+        
+        <div id="secret-message" class="hidden">
+            💌 Секретное послание: <br>  
+            <span>Ты для меня самый особенный и дорогой человек 😘</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
